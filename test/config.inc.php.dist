@@ -1,0 +1,5 @@
+<?php
+
+$config['simpleplugin_option] = 'default_value';
+$config['debug_level'] = 1;
+$config['threeinputs_default'] = 'value';

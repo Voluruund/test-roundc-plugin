@@ -1,0 +1,21 @@
+.form-section{
+     width: 40%;
+     margin: 1vh auto 1vh 2vw;
+     display: grid;
+     align-items: center;
+     grid-template-columns: 20% 80%;
+     gap: 2vw;
+}
+
+.custom-btn{
+     width: 10%;
+     margin: 5vh auto 1vh 2vw;
+}
+
+.form-test label{
+     margin: 0;
+}
+
+.main-title{
+     margin: 1vh auto 1vh 2vw;
+}

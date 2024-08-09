@@ -1,0 +1,21 @@
+<roundcube:include file="includes/settings-header.html" />
+
+<div class="box">
+    <h1>{myplugin.settings}</h1>
+    <fieldset>
+        <legend>{myplugin.settings}</legend>
+        <!-- Your form elements here -->
+        <form action="?_task=settings&_action=plugin.myplugin-save" method="post">
+            <input type="hidden" name="_token" value="{request_token}" />
+
+            <p>
+                <label for="mysetting">{myplugin.setting_label}</label>
+                <input type="text" id="mysetting" name="mysetting" value="{mysetting_value}" />
+            </p>
+
+            <input type="submit" value="{save}" />
+        </form>
+    </fieldset>
+</div>
+
+<roundcube:include file="includes/settings-footer.html" />
